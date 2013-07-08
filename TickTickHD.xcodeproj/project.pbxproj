@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB099916178AB09900BF5E09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB099915178AB09900BF5E09 /* UIKit.framework */; };
+		EB099918178AB09900BF5E09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB099917178AB09900BF5E09 /* Foundation.framework */; };
+		EB09991A178AB09900BF5E09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB099919178AB09900BF5E09 /* CoreGraphics.framework */; };
+		EB09991C178AB09900BF5E09 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB09991B178AB09900BF5E09 /* CoreData.framework */; };
+		EB099922178AB09900BF5E09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB099920178AB09900BF5E09 /* InfoPlist.strings */; };
+		EB099924178AB09900BF5E09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB099923178AB09900BF5E09 /* main.m */; };
+		EB099928178AB09900BF5E09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB099927178AB09900BF5E09 /* AppDelegate.m */; };
+		EB09992A178AB09900BF5E09 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EB099929178AB09900BF5E09 /* Default.png */; };
+		EB09992C178AB09900BF5E09 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB09992B178AB09900BF5E09 /* Default@2x.png */; };
+		EB09992E178AB09900BF5E09 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB09992D178AB09900BF5E09 /* Default-568h@2x.png */; };
+		EB099931178AB09900BF5E09 /* TickTickHD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB09992F178AB09900BF5E09 /* TickTickHD.xcdatamodeld */; };
+		EB099948178AB1E200BF5E09 /* PSStackedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB09993C178AB1E200BF5E09 /* PSStackedViewController.m */; };
+		EB099949178AB1E200BF5E09 /* PSStackedViewGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = EB09993F178AB1E200BF5E09 /* PSStackedViewGlobal.m */; };
+		EB09994A178AB1E200BF5E09 /* PSStackedViewSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = EB099941178AB1E200BF5E09 /* PSStackedViewSegue.m */; };
+		EB09994B178AB1E200BF5E09 /* PSSVContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB099943178AB1E200BF5E09 /* PSSVContainerView.m */; };
+		EB09994C178AB1E200BF5E09 /* UIView+PSSizes.m in Sources */ = {isa = PBXBuildFile; fileRef = EB099945178AB1E200BF5E09 /* UIView+PSSizes.m */; };
+		EB09994D178AB1E200BF5E09 /* UIViewController+PSStackedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB099947178AB1E200BF5E09 /* UIViewController+PSStackedView.m */; };
+		EB09994F178AB22A00BF5E09 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB09994E178AB22A00BF5E09 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB099912178AB09900BF5E09 /* TickTickHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickTickHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB099915178AB09900BF5E09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB099917178AB09900BF5E09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB099919178AB09900BF5E09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB09991B178AB09900BF5E09 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB09991F178AB09900BF5E09 /* TickTickHD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TickTickHD-Info.plist"; sourceTree = "<group>"; };
+		EB099921178AB09900BF5E09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB099923178AB09900BF5E09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB099925178AB09900BF5E09 /* TickTickHD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TickTickHD-Prefix.pch"; sourceTree = "<group>"; };
+		EB099926178AB09900BF5E09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB099927178AB09900BF5E09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB099929178AB09900BF5E09 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EB09992B178AB09900BF5E09 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EB09992D178AB09900BF5E09 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EB099930178AB09900BF5E09 /* TickTickHD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TickTickHD.xcdatamodel; sourceTree = "<group>"; };
+		EB09993A178AB1E200BF5E09 /* PSStackedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStackedView.h; sourceTree = "<group>"; };
+		EB09993B178AB1E200BF5E09 /* PSStackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStackedViewController.h; sourceTree = "<group>"; };
+		EB09993C178AB1E200BF5E09 /* PSStackedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSStackedViewController.m; sourceTree = "<group>"; };
+		EB09993D178AB1E200BF5E09 /* PSStackedViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStackedViewDelegate.h; sourceTree = "<group>"; };
+		EB09993E178AB1E200BF5E09 /* PSStackedViewGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStackedViewGlobal.h; sourceTree = "<group>"; };
+		EB09993F178AB1E200BF5E09 /* PSStackedViewGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSStackedViewGlobal.m; sourceTree = "<group>"; };
+		EB099940178AB1E200BF5E09 /* PSStackedViewSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStackedViewSegue.h; sourceTree = "<group>"; };
+		EB099941178AB1E200BF5E09 /* PSStackedViewSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSStackedViewSegue.m; sourceTree = "<group>"; };
+		EB099942178AB1E200BF5E09 /* PSSVContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSSVContainerView.h; sourceTree = "<group>"; };
+		EB099943178AB1E200BF5E09 /* PSSVContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSSVContainerView.m; sourceTree = "<group>"; };
+		EB099944178AB1E200BF5E09 /* UIView+PSSizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PSSizes.h"; sourceTree = "<group>"; };
+		EB099945178AB1E200BF5E09 /* UIView+PSSizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PSSizes.m"; sourceTree = "<group>"; };
+		EB099946178AB1E200BF5E09 /* UIViewController+PSStackedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PSStackedView.h"; sourceTree = "<group>"; };
+		EB099947178AB1E200BF5E09 /* UIViewController+PSStackedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PSStackedView.m"; sourceTree = "<group>"; };
+		EB09994E178AB22A00BF5E09 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB09990F178AB09900BF5E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB09994F178AB22A00BF5E09 /* QuartzCore.framework in Frameworks */,
+				EB099916178AB09900BF5E09 /* UIKit.framework in Frameworks */,
+				EB099918178AB09900BF5E09 /* Foundation.framework in Frameworks */,
+				EB09991A178AB09900BF5E09 /* CoreGraphics.framework in Frameworks */,
+				EB09991C178AB09900BF5E09 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB099909178AB09900BF5E09 = {
+			isa = PBXGroup;
+			children = (
+				EB09991D178AB09900BF5E09 /* TickTickHD */,
+				EB099914178AB09900BF5E09 /* Frameworks */,
+				EB099913178AB09900BF5E09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB099913178AB09900BF5E09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB099912178AB09900BF5E09 /* TickTickHD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB099914178AB09900BF5E09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB09994E178AB22A00BF5E09 /* QuartzCore.framework */,
+				EB099915178AB09900BF5E09 /* UIKit.framework */,
+				EB099917178AB09900BF5E09 /* Foundation.framework */,
+				EB099919178AB09900BF5E09 /* CoreGraphics.framework */,
+				EB09991B178AB09900BF5E09 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB09991D178AB09900BF5E09 /* TickTickHD */ = {
+			isa = PBXGroup;
+			children = (
+				EB099938178AB18000BF5E09 /* OpenSourceLib */,
+				EB099937178AB16300BF5E09 /* VIew Controllers */,
+				EB099926178AB09900BF5E09 /* AppDelegate.h */,
+				EB099927178AB09900BF5E09 /* AppDelegate.m */,
+				EB09992F178AB09900BF5E09 /* TickTickHD.xcdatamodeld */,
+				EB09991E178AB09900BF5E09 /* Supporting Files */,
+			);
+			path = TickTickHD;
+			sourceTree = "<group>";
+		};
+		EB09991E178AB09900BF5E09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB09991F178AB09900BF5E09 /* TickTickHD-Info.plist */,
+				EB099920178AB09900BF5E09 /* InfoPlist.strings */,
+				EB099923178AB09900BF5E09 /* main.m */,
+				EB099925178AB09900BF5E09 /* TickTickHD-Prefix.pch */,
+				EB099929178AB09900BF5E09 /* Default.png */,
+				EB09992B178AB09900BF5E09 /* Default@2x.png */,
+				EB09992D178AB09900BF5E09 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB099937178AB16300BF5E09 /* VIew Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "VIew Controllers";
+			sourceTree = "<group>";
+		};
+		EB099938178AB18000BF5E09 /* OpenSourceLib */ = {
+			isa = PBXGroup;
+			children = (
+				EB099939178AB1E200BF5E09 /* PSStackedView */,
+			);
+			name = OpenSourceLib;
+			sourceTree = "<group>";
+		};
+		EB099939178AB1E200BF5E09 /* PSStackedView */ = {
+			isa = PBXGroup;
+			children = (
+				EB09993A178AB1E200BF5E09 /* PSStackedView.h */,
+				EB09993B178AB1E200BF5E09 /* PSStackedViewController.h */,
+				EB09993C178AB1E200BF5E09 /* PSStackedViewController.m */,
+				EB09993D178AB1E200BF5E09 /* PSStackedViewDelegate.h */,
+				EB09993E178AB1E200BF5E09 /* PSStackedViewGlobal.h */,
+				EB09993F178AB1E200BF5E09 /* PSStackedViewGlobal.m */,
+				EB099940178AB1E200BF5E09 /* PSStackedViewSegue.h */,
+				EB099941178AB1E200BF5E09 /* PSStackedViewSegue.m */,
+				EB099942178AB1E200BF5E09 /* PSSVContainerView.h */,
+				EB099943178AB1E200BF5E09 /* PSSVContainerView.m */,
+				EB099944178AB1E200BF5E09 /* UIView+PSSizes.h */,
+				EB099945178AB1E200BF5E09 /* UIView+PSSizes.m */,
+				EB099946178AB1E200BF5E09 /* UIViewController+PSStackedView.h */,
+				EB099947178AB1E200BF5E09 /* UIViewController+PSStackedView.m */,
+			);
+			name = PSStackedView;
+			path = OpenSourceLib/PSStackedView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB099911178AB09900BF5E09 /* TickTickHD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB099934178AB09900BF5E09 /* Build configuration list for PBXNativeTarget "TickTickHD" */;
+			buildPhases = (
+				EB09990E178AB09900BF5E09 /* Sources */,
+				EB09990F178AB09900BF5E09 /* Frameworks */,
+				EB099910178AB09900BF5E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TickTickHD;
+			productName = TickTickHD;
+			productReference = EB099912178AB09900BF5E09 /* TickTickHD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB09990A178AB09900BF5E09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = com.TickTIck;
+			};
+			buildConfigurationList = EB09990D178AB09900BF5E09 /* Build configuration list for PBXProject "TickTickHD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB099909178AB09900BF5E09;
+			productRefGroup = EB099913178AB09900BF5E09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB099911178AB09900BF5E09 /* TickTickHD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB099910178AB09900BF5E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB099922178AB09900BF5E09 /* InfoPlist.strings in Resources */,
+				EB09992A178AB09900BF5E09 /* Default.png in Resources */,
+				EB09992C178AB09900BF5E09 /* Default@2x.png in Resources */,
+				EB09992E178AB09900BF5E09 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB09990E178AB09900BF5E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB099924178AB09900BF5E09 /* main.m in Sources */,
+				EB099928178AB09900BF5E09 /* AppDelegate.m in Sources */,
+				EB099931178AB09900BF5E09 /* TickTickHD.xcdatamodeld in Sources */,
+				EB099948178AB1E200BF5E09 /* PSStackedViewController.m in Sources */,
+				EB099949178AB1E200BF5E09 /* PSStackedViewGlobal.m in Sources */,
+				EB09994A178AB1E200BF5E09 /* PSStackedViewSegue.m in Sources */,
+				EB09994B178AB1E200BF5E09 /* PSSVContainerView.m in Sources */,
+				EB09994C178AB1E200BF5E09 /* UIView+PSSizes.m in Sources */,
+				EB09994D178AB1E200BF5E09 /* UIViewController+PSStackedView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB099920178AB09900BF5E09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB099921178AB09900BF5E09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB099932178AB09900BF5E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EB099933178AB09900BF5E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB099935178AB09900BF5E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TickTickHD/TickTickHD-Prefix.pch";
+				INFOPLIST_FILE = "TickTickHD/TickTickHD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB099936178AB09900BF5E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TickTickHD/TickTickHD-Prefix.pch";
+				INFOPLIST_FILE = "TickTickHD/TickTickHD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB09990D178AB09900BF5E09 /* Build configuration list for PBXProject "TickTickHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB099932178AB09900BF5E09 /* Debug */,
+				EB099933178AB09900BF5E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB099934178AB09900BF5E09 /* Build configuration list for PBXNativeTarget "TickTickHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB099935178AB09900BF5E09 /* Debug */,
+				EB099936178AB09900BF5E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB09992F178AB09900BF5E09 /* TickTickHD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB099930178AB09900BF5E09 /* TickTickHD.xcdatamodel */,
+			);
+			currentVersion = EB099930178AB09900BF5E09 /* TickTickHD.xcdatamodel */;
+			path = TickTickHD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB09990A178AB09900BF5E09 /* Project object */;
+}
